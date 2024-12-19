@@ -8,7 +8,7 @@ build = "build.rs"
 default-run="corset"
 
 [lib]
-crate-type = ["cdylib", "staticlib"]
+crate-type = ["cdylib", "staticlib", "lib"]
 
 [[bin]]
 name = "corset"

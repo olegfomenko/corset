@@ -13,19 +13,19 @@ use std::{
     sync::RwLock,
 };
 
-mod cgo;
-mod check;
-mod column;
-mod compiler;
-mod compute;
-mod constants;
-mod dag;
-mod errors;
-mod import;
-mod pretty;
-mod structs;
-mod transformer;
-mod utils;
+pub mod cgo;
+pub mod check;
+pub mod column;
+pub mod compiler;
+pub mod compute;
+pub mod constants;
+pub mod dag;
+pub mod errors;
+pub mod import;
+pub mod pretty;
+pub mod structs;
+pub mod transformer;
+pub mod utils;
 
 pub(crate) static IS_NATIVE: RwLock<bool> = RwLock::new(true);
 
